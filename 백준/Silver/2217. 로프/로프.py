@@ -1,5 +1,6 @@
-n = int(input())
-m = [int(input()) for i in range(n)]
+import sys
+n = int(sys.stdin.readline())
+m = [int(sys.stdin.readline()) for i in range(n)]
 
 m.sort(reverse=True)
 
